@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(routes: routes);
+    return MaterialApp(
+        title: 'Rodados Admin App', initialRoute: '/', routes: routes);
   }
 }
